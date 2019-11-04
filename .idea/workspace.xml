@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1244d283-2b3f-4e98-8b64-7ad1f18433e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLIConverter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CLI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CommandHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumberConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/converters/NumberConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CommandHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CommandHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NumberConverter.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +82,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/practicumopdracht_oop2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -116,7 +111,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CLIConverter" />
-      <option name="PROGRAM_PARAMETERS" value="-octtohex 75" />
+      <option name="PROGRAM_PARAMETERS" value="-feetomet 50" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,6 +120,16 @@
       <module name="CLI" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandHandlerTest.testCommands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CLIConverter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommandHandlerTest" />
+      <option name="METHOD_NAME" value="testCommands" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,10 +184,12 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.All in CLIConverter" />
+      <item itemvalue="JUnit.CommandHandlerTest.testCommands" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CommandHandlerTest.testCommands" />
         <item itemvalue="JUnit.All in CLIConverter" />
       </list>
     </recent_temporary>
@@ -202,7 +209,10 @@
       <workItem from="1572465937471" duration="6522000" />
       <workItem from="1572478757381" duration="8000" />
       <workItem from="1572522155022" duration="11582000" />
-      <workItem from="1572554322022" duration="257000" />
+      <workItem from="1572554322022" duration="643000" />
+      <workItem from="1572704657613" duration="8469000" />
+      <workItem from="1572807006403" duration="13373000" />
+      <workItem from="1572900933264" duration="961000" />
     </task>
     <servers />
   </component>
