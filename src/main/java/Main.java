@@ -1,12 +1,11 @@
 import org.apache.commons.cli.*;
 
 /**
- * @author Ferran <ferrantl@live.nl)
+ * @author Ferran
  * Command Line Interface to do random stuff
  */
 public class Main {
 
-    //Main method (start of the application)
     public static void main(String[] args){
 
         //Create all the CLI options
@@ -17,11 +16,9 @@ public class Main {
             CommandLineParser parser = new DefaultParser();
             CommandLine cmd = parser.parse(options, args);
 
-            //Call handleCommand() to check which command the user has typed in and execute certain code
             CommandHandler.handleCommand(cmd, args);
 
         } catch (ParseException e) {
-            //Show a message for if the command was not recognized
             System.out.println("Command " + args[0] + " is not recognized as an internal or external command, type -help to see a list" +
                     " of all the available commands");
         }
@@ -35,8 +32,7 @@ public class Main {
     public static Options createOptions(){
         Options options = new Options();
 
-        //A command would look like this: -octtohex 50
-        //First parameter is the command the user has to type in, second parameter is if the command requires any arguments, the third parameter is a description of the command
+        // A command would look like this: -octtohex 50
         options.addOption("help",  false, "Help command to see a list of all commands");
 
         options.addOption("octtohex",  true, "Will convert an octal number to a hexadecimal number");

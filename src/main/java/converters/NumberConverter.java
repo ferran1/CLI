@@ -10,11 +10,7 @@ public class NumberConverter {
 
     private static int i = 1;
 
-    /**
-     * Converts octal number to a hexadecimal number
-     * @param oct is the passed in octal number to convert
-     * @return
-     */
+    // converts oct to hex
     public static String convertOctalToHexadecimal(int oct) {
         int dec = 0, i = 0;
         while (oct != 0) {
@@ -26,7 +22,7 @@ public class NumberConverter {
         return hex;
     }
 
-    //This method converts a decimal number to a hexadecimal number
+    // converts a decimal number to a hexadecimal number
     public static String convertDecimalTohexdecimal(int q) {
         char a[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
         int rem;
@@ -39,7 +35,7 @@ public class NumberConverter {
         return hexdec;
     }
 
-    //This method converts a decimal number to an octal number
+    // converts a decimal number to an octal number
     public static void convertDecimalToOctal(int dec){
         int[] oct = octal(dec);
 
@@ -49,7 +45,7 @@ public class NumberConverter {
         }
     }
 
-    //Helper method to convert decimal to octal
+    // converts decimal to octal
     private static int[] octal(int q)
     {
         int a[] = new int[50];
@@ -61,7 +57,7 @@ public class NumberConverter {
         return a;
     }
 
-    //This method converts a decimal number to binary number
+    // converts a decimal number to binary number
     public static void convertDecimalToBinary(int dec) {
         int  bin[]=new int[100];
         int i = 0;
@@ -76,7 +72,7 @@ public class NumberConverter {
         }
     }
 
-    //This method converts fahrenheit to celsius
+    // converts fahrenheit to celsius
     public static void convertFahrenheitToCelsius(double fah){
         double celsius = (fah-32)*5/9;
         //Format the double to remove .0
