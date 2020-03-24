@@ -2,13 +2,11 @@ import org.apache.commons.cli.*;
 
 /**
  * @author Ferran
- * Command Line Interface to do random stuff
  */
 public class Main {
 
     public static void main(String[] args){
 
-        //Create all the CLI options
         Options options = createOptions();
 
         try {
@@ -24,8 +22,7 @@ public class Main {
         }
     }
 
-    /**
-     * This method creates and returns all the CLI options
+    /* creates and returns all the CLI options
      * Also saves all the options in the TreeMap of the CommandHandler class to print it in the help command
      * @return CLI Options
      */
