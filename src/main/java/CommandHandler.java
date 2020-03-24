@@ -6,9 +6,6 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
 
-/**
- * This class handles all the CLI commands
- */
 public class CommandHandler {
 
     static Map<String, String> options = new TreeMap<>(String::compareTo);
@@ -31,9 +28,6 @@ public class CommandHandler {
             }
             System.out.println("\n Github: https://github.com/ferran1/CLI");
         }
-        /**
-         * Number converting commands
-         */
         else if (cmd.hasOption("octtohex")) {
             int octalAsInt;
             try {
